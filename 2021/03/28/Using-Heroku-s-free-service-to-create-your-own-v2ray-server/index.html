@@ -39,7 +39,7 @@
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/orange2008/IMGBED@210fbfccbfeec664d43947dca96c1364b72c8468/2021/03/01/3fb85ed303d88982beedb2affb4e0a95.png">
 <meta property="og:image" content="https://cdn.jsdelivr.net/gh/orange2008/IMGBED@7b79b8fb921b8d574d79f2e422e5e8d94a04970f/2021/03/01/9b28beecbd016bccfc21357716d3109d.png">
 <meta property="article:published_time" content="2021-03-28T05:12:02.000Z">
-<meta property="article:modified_time" content="2021-03-28T10:55:02.790Z">
+<meta property="article:modified_time" content="2021-04-04T10:32:46.768Z">
 <meta property="article:author" content="Frank Ruan">
 <meta property="article:tag" content="Free">
 <meta name="twitter:card" content="summary">
@@ -188,10 +188,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2021-03-28 13:12:02 / Modified: 18:55:02" itemprop="dateCreated datePublished" datetime="2021-03-28T13:12:02+08:00">2021-03-28</time>
+              <time title="Created: 2021-03-28 13:12:02" itemprop="dateCreated datePublished" datetime="2021-03-28T13:12:02+08:00">2021-03-28</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-04-04 18:32:46" itemprop="dateModified" datetime="2021-04-04T18:32:46+08:00">2021-04-04</time>
+              </span>
 
           
 
@@ -217,7 +223,7 @@
 </ol>
 <p>**Please copy the UUID and save it, it will be used later! ** Then press <strong>Deploy app</strong>.<br><img src="https://cdn.jsdelivr.net/gh/orange2008/IMGBED@4c7e0451c44ff1be4f7f88aec1cbfa617df2469a/2021/03/01/b5db5a905e4ebb7f4b8e2997c7d3c6a3.png"></p>
 <ol start="4">
-<li>You will finally arrive at the home page of the App (as shown below), please copy the button link [<strong>Open app</strong>] in the upper right corner (right-click on the button and find the option to copy link; click Open app, it may load After entering for a long time, an error message must be displayed after the entry is completed. This is normal).<br><img src="https://cdn.jsdelivr.net/gh/orange2008/IMGBED@fdd8269489a12fb9b51381f0c2cc0e76eba4e827/2021/03/01/dd62084ce864e67240da1936e5fca91f.png"></li>
+<li>You will finally arrive at the home page of the App (as shown below), please copy the button link [<strong>Open app</strong>] in the upper right corner (right-click on the button and find the option to copy link; click Open app, it may load After entering for a long time, an error message must be displayed (<em>400 Bad Request</em>) after the entry is completed. This is normal).<br><img src="https://cdn.jsdelivr.net/gh/orange2008/IMGBED@fdd8269489a12fb9b51381f0c2cc0e76eba4e827/2021/03/01/dd62084ce864e67240da1936e5fca91f.png"></li>
 </ol>
 <h3 id="Step-2-Sign-up-for-Cloudflare-Workers"><a href="#Step-2-Sign-up-for-Cloudflare-Workers" class="headerlink" title="Step 2: Sign up for Cloudflare Workers"></a>Step 2: Sign up for Cloudflare Workers</h3><ol>
 <li><p>Open the <a target="_blank" rel="noopener" href="https://dash.cloudflare.com/sign-up">Cloudflare registration website</a> and follow the on-screen instructions to register.<br><img src="https://cdn.jsdelivr.net/gh/orange2008/IMGBED@660055bf2c5acf31149619b81e60ea8931a408d7/2021/03/01/c6350d1905068ef741bec8fe6fe58224.png"></p>
@@ -252,14 +258,14 @@
 </li>
 <li><p>Go to Telegram Channel and download <a target="_blank" rel="noopener" href="https://t.me/s/ClashR_for_Windows_Channel">Simplified Chinese version of Clash file</a> (please follow the instructions to install)</p>
 </li>
-<li><p>Open Clash, in the [<strong>General</strong>] function page, install “<strong>TAP Network Adapter</strong>“, turn on “<strong>Service Mode</strong>“, click “**UWP Application Network Loopback (click to enter Then click “Exempt All”-&gt;”Save Changes”) **”.</p>
+<li><p>Open Clash, in the [<strong>General</strong>] function page, install “<strong>TAP Network Adapter</strong>“(<em>Then the entire system will be proxied. Otherwise the apps such as Games, CMD won’t be proxied.</em>), turn on “<strong>Service Mode</strong>“, click “**UWP Application Network Loopback (click to enter Then click “Exempt All”-&gt;”Save Changes”) **”.</p>
 </li>
-<li><p>Open the [<strong>Configuration</strong>] function page, click [<strong>Import</strong>], then select the configuration file you just created, and then from the list in the [<strong>Configuration</strong>] function page, select the just imported File, make the left side of this option appear green (as shown in the figure below).</p>
+<li><p>Open the [<strong>Profiles</strong>] function page, click [<strong>Import</strong>], then select the configuration file you just created, and then from the list in the [<strong>Profiles</strong>] function page, select the just imported File, make the left side of this option appear green (as shown in the figure below).</p>
 </li>
 </ol>
 <p><img src="https://cdn.jsdelivr.net/gh/orange2008/IMGBED@7b79b8fb921b8d574d79f2e422e5e8d94a04970f/2021/03/01/9b28beecbd016bccfc21357716d3109d.png"></p>
 <ol start="5">
-<li>Go to the [<strong>Proxy</strong>] function page, click [<strong>Global</strong>] at the top of the window, and then click [<strong>V2Ray Connection</strong>], Clash will start the V2Ray VPN service!</li>
+<li>Go to the [<strong>Proxies</strong>] function page, click [<strong>Global</strong>] at the top of the window, and then click [<strong>V2Ray Connection</strong>], Clash will start the V2Ray VPN service!</li>
 </ol>
 <hr>
 <ul>
